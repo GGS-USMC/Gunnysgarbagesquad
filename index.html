@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gunny's Garbage Squad | Phoenix HOA Trash-Can Valet Service</title>
+    <meta name="description" content="Reliable trash-can valet service for HOA communities throughout the Phoenix Valley & surrounding Arizona cities at just $7.25 a week per home." />
+    <script>
+      // Gracefully handle Vite HMR WebSocket connection events in preview iframe environment
+      window.addEventListener('unhandledrejection', function(event) {
+        if (
+          event.reason &&
+          (event.reason.message?.includes('WebSocket') ||
+           event.reason.message?.includes('vite') ||
+           event.reason.stack?.includes('@vite/client'))
+        ) {
+          event.preventDefault();
+        }
+      });
+      window.addEventListener('error', function(event) {
+        if (
+          event.message?.includes('WebSocket') ||
+          event.filename?.includes('@vite/client')
+        ) {
+          event.preventDefault();
+        }
+      });
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

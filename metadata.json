@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Gunny\u0027s Garbage Squad",
+  "description": "Professional HOA trash-can valet service in the Phoenix Valley and surrounding Arizona communities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
